@@ -1,7 +1,7 @@
 # Papara-Bootcamp-Final-Project
 
 ## Apartment Management System
-In this project, there are two types of users: the administrator, who is responsible for managing the apartment complex, and the residents, who own or rent the units in the complex. The administrator can manage resident profiles, assign dues to units, input monthly utility bills, view payments, and monitor debt statuses. Residents, on the other hand, can view assigned dues and utility bills, and make payments.
+In this project, there are two types of users: the admin, who is responsible for managing the apartment complex, and the residents, who own or rent the units in the complex. The administrator can manage resident profiles, assign dues to units, input monthly utility bills, view payments, and monitor debt statuses. Residents, on the other hand, can view assigned dues and utility bills, and make payments.
 
 ## Getting Started
 
@@ -35,12 +35,12 @@ Follow these steps to have the project up and running.
 
 ### Admin Role
 
-Upon the initial setup of the system, an administrator user is automatically created with the following credentials:
+Upon the initial setup of the system, an admin is automatically created with the following credentials:
 - Username: admin@admin.com
 - Password: Test1234
 
-The administrator panel can perform the following functions:
-- Assign, edit, and delete users for apartments.
+The admin role is responsible for the following tasks::
+- Creating, updating, and deleting user profiles for apartments.
 - Assign monthly dues to apartments collectively or individually.
 - Input monthly utility bills for the building, such as electricity, water, and gas.
 - View payments made by apartments.
@@ -49,7 +49,7 @@ The administrator panel can perform the following functions:
 
 ### User Role
 
-There are two user roles in the system: administrators and residents. Residents log in using their ID number and phone number. They can perform the following functions:
+There are two user roles in the system: administrators and users. Users log in using their ID number and phone number. They can perform the following functions:
 - View monthly dues and utility bills.
 - Make payments for dues or bills.
 
