@@ -37,7 +37,7 @@ Follow these steps to have the project up and running.
 
 Upon the initial setup of the system, an admin is automatically created with the following credentials:
 - Username: admin@admin.com
-- Password: Test1234
+- Password: Test1234,
 
 The admin role is responsible for the following tasks::
 - Creating, updating, and deleting user profiles for apartments.
