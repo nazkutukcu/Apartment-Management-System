@@ -1,0 +1,15 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SiteYonetimSistemi.API.Models.MonthlyDues.DTOs
+{
+    public class MontlyDuesToAllAddRequestDto
+    {
+        [Required(ErrorMessage = "Amount alanı boş geçilemez.")]
+        [Range(1, double.MaxValue, ErrorMessage = "Amount alanı 0'dan büyük bir değer olmalıdır.")]
+        public decimal Amount { get; set; } 
+
+        [Required(ErrorMessage = "Ay değeri zorunludur.")]
+        [Range(0, 12, ErrorMessage = "Geçerli bir ay değeri giriniz (1-12).")]
+        public int Month { get; set; } 
+    }
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "AddMonthlyBillToAllApartments",
+    "RelativePath": "api/Admin/AddMonthlyBillToAllApartments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.MonthlyBills.DTOs.MonthlyBillToAllAddRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "AssignMonthlyDuesToAllApartments",
+    "RelativePath": "api/Admin/AssignMonthlyDuesToAllApartments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.MonthlyDues.DTOs.MontlyDuesToAllAddRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "AssignMonthlyDuesToApartment",
+    "RelativePath": "api/Admin/AssignMonthlyDuesToApartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.MonthlyDues.DTOs.MontlyDueAddRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "AssignUserToApartment",
+    "RelativePath": "api/Admin/AssignUserToApartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.UserApartments.DTOs.UserApartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "GetMonthlyDebtForApartment",
+    "RelativePath": "api/Admin/GetMonthlyDebtForApartment/{apartmentId}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.AdminController",
+    "Method": "GetYearlyDebtForApartment",
+    "RelativePath": "api/Admin/GetYearlyDebtForApartment/{apartmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.ApartmentController",
+    "Method": "Add",
+    "RelativePath": "api/Apartment/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.Apartments.DTOs.ApartmentSaveDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.ApartmentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Apartment/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.ApartmentController",
+    "Method": "GetAllApartmentsUnpaidBillsAndDuesForMonth",
+    "RelativePath": "api/Apartment/GetAllApartmentsUnpaidBillsAndDuesForMonth/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.ApartmentController",
+    "Method": "GetAllBillsAndDuesForMonth",
+    "RelativePath": "api/Apartment/GetAllBillsAndDuesForMonth/{apartmentId}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.ApartmentController",
+    "Method": "GetUnpaidBillsAndDuesForMonth",
+    "RelativePath": "api/Apartment/GetUnpaidBillsAndDuesForMonth/{apartmentId}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.IdentityController",
+    "Method": "CreateTokenForAdmin",
+    "RelativePath": "api/Identity/CreateTokenForAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Services.DTOs.TokenCreateForAdminRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.IdentityController",
+    "Method": "CreateTokenForUser",
+    "RelativePath": "api/Identity/CreateTokenForUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Services.DTOs.TokenCreateForUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.PaymentController",
+    "Method": "GetApartmentsWithRegularPayments",
+    "RelativePath": "api/Payment/GetApartmentsWithRegularPayments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.PaymentController",
+    "Method": "GetPaymentsForApartment",
+    "RelativePath": "api/Payment/GetPaymentsForApartment/{apartmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.PaymentController",
+    "Method": "MakePaymentForMonthlyBill",
+    "RelativePath": "api/Payment/MakePaymentForMonthlyBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.Payments.DTOs.BillPaymentMakeDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.PaymentController",
+    "Method": "MakePaymentForMonthlyDue",
+    "RelativePath": "api/Payment/MakePaymentForMonthlyDue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.Payments.DTOs.DuePaymentMakeDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.Users.DTOs.UserCreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SiteYonetimSistemi.API.Models.Users.DTOs.UserUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SiteYonetimSistemi.API.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
