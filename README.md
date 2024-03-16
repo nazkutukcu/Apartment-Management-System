@@ -1,5 +1,3 @@
-# Papara-Bootcamp-Final-Project
-
 ## Apartment Management System
 In this project, there are two types of roles: the admin, who is responsible for managing the apartment complex, and the residents, who own or rent the units in the complex. The admin can manage user profiles, assign dues to units, input monthly utility bills, view payments, and monitor debt statuses. Users, on the other hand, can view assigned dues and utility bills, and make payments.
 
